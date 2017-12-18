@@ -9,8 +9,8 @@
 6 silly lifecycle parturoServer@0.1.0~prestart: no script for prestart, continuing
 7 info lifecycle parturoServer@0.1.0~start: parturoServer@0.1.0
 8 verbose lifecycle parturoServer@0.1.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle parturoServer@0.1.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\OA\repo\parturo\server\node_modules\.bin;C:\Users\Piotr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Piotr\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Brackets\command;C:\Users\Piotr\AppData\Local\Microsoft\WindowsApps;C:\Users\Piotr\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
-10 verbose lifecycle parturoServer@0.1.0~start: CWD: C:\OA\repo\parturo\server
+9 verbose lifecycle parturoServer@0.1.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\OA_to_ten\parturoApp\server\node_modules\.bin;C:\Users\Piotr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Piotr\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Brackets\command;C:\Users\Piotr\AppData\Local\Microsoft\WindowsApps;C:\Users\Piotr\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+10 verbose lifecycle parturoServer@0.1.0~start: CWD: C:\OA_to_ten\parturoApp\server
 11 silly lifecycle parturoServer@0.1.0~start: Args: [ '/d /s /c', 'node server.js' ]
 12 silly lifecycle parturoServer@0.1.0~start: Returned: code: 1  signal: null
 13 info lifecycle parturoServer@0.1.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid parturoServer@0.1.0
-16 verbose cwd C:\OA\repo\parturo\server
+16 verbose cwd C:\OA_to_ten\parturoApp\server
 17 error Windows_NT 10.0.16299
 18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
 19 error node v6.9.2
