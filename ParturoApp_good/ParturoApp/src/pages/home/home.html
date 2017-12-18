@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Parturo</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-fab right bottom>
+        <button ion-fab color="primary" (click)="openNewEventModal()">
+          <span class="button-inner">
+            <ion-icon name="add" role="img" class="icon icon-md ion-md-add" aria-label="add"></ion-icon>
+          </span>
+        </button>
+      </ion-fab>
+
+      <ion-list>
+          <ion-item *ngFor="let event of events; trackBy">
+            <h2>{{event.name}}</h2>
+            <p>{{event.place}}</p>
+          </ion-item>
+        </ion-list>
+</ion-content>
